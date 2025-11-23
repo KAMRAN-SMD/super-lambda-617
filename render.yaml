@@ -7,8 +7,8 @@ services:
     dockerfilePath: ./Dockerfile
     envVars:
       - key: SESSION
-        value: ""
+        value: "RGNK~SvID4AIw"
       - key: DATABASE_URL
-        fromDatabase:
+        fromDatabase:https://files.catbox.moe/ly6553.jpg
           name: my-database
           property: connectionString
